@@ -5,11 +5,11 @@
 
 typedef struct Node //Create a node
 {
-	int data;
+	int item;
 	struct Node* next;
 };
 
-void insertAtBeginning(Node* * ref, int data) //Insert a node at begin
+void insertAtBeginning(struct Node* * ref, int data) //Insert a node at begin
 {
 	//Allocate memory to a node
 	struct Node* new_node = (struct Node*)malloc(sizeof(struct Node));
