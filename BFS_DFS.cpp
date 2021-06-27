@@ -8,11 +8,11 @@ class Graph
   list<int>* adjLists;
   bool* visited;
 
-   public:
-  Graph(int V);
-  void addEdge(int src, int dest);
-  void DFS(int vertex);
-  void BFS(int startVertex);
+  public:
+    Graph(int V);
+    void addEdge(int src, int dest);
+    void DFS(int vertex);
+    void BFS(int startVertex);
 };
 
 //create graph

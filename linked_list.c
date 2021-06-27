@@ -43,8 +43,9 @@ void insertAtEnd(struct Node** ref, int data) //Insert a node at end
 		return;
 	}
 	while (last->next != NULL)
-	last = last->next;
-	
+	{
+		last = last->next;
+	}	
 	last->next = new_node;
 	return;
 }
